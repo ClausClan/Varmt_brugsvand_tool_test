@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  
+
+<defs>
+    <linearGradient id="nirasSplit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="65%" style="stop-color:#dc3545;stop-opacity:1" /> <stop offset="65%" style="stop-color:#0d6efd;stop-opacity:1" /> </linearGradient>
+    
+    <linearGradient id="coldPipe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d6efd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a58ca;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="white" rx="60" />
+
+  <path d="M0 280 L 150 280" stroke="url(#coldPipe)" stroke-width="40" stroke-linecap="round" fill="none" />
+    <path d="M496 190 Q 496 220 470 220 Q 444 220 444 190 Q 444 160 470 130 Q 496 160 496 190 Z" fill="#dc3545" transform="translate(0, 20)" />
+
+  <g transform="translate(295, 50) scale(0.8)">
+     <path d="M10 150 L 10 50 Q 10 10 50 10 L 180 10 Q 220 10 220 50 L 220 120" fill="none" stroke="#495057" stroke-width="30" stroke-linecap="round" />
+     <path d="M40 10 L 40 -30 L 100 -30 L 100 10" fill="#343a40" />
+     <rect x="30" y="-40" width="80" height="20" rx="5" fill="#212529" />
+  </g>
+
+  <text x="50%" y="400" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="150" text-anchor="middle" fill="url(#nirasSplit)" style="letter-spacing: 5px;">
+    NIRAS
+  </text>
+  
+  <text x="50%" y="470" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" fill="#6c757d">
+    Varmt Brugsvand App
+  </text>
+</svg>
